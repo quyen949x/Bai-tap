@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+label {
+  padding: 12px 10px 12px 0;
+  display: inline-block;
+}
+.container{
+  width: 40%;
+  margin: auto;
+  padding: 50px 30px;
+  border: 2px solid #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding-bottom: 8px;
+}
+.col-20{
+  width: 20%;
+  flex-grow: 2;
+  height: 35px;
+}
+.col-80{
+  display: flex;
+  width: 80%;
+  flex-grow: 8;
+  flex-direction: row;
+  height: 35px;
+}
+.col-30{
+  width: 30%;
+  flex-grow: 3;
+  height: 35px;
+}
+.col-70{
+  width: 70%;
+  flex-grow: 7;
+  height: 35px;
+}
+.input-control{
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.btn{
+  width: 100%;
+  height: 35px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.radio{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.float-right{
+  float: right;
+}
+.btn-yellow{
+  background: rgb(255, 211, 0);
+  border: 2px solid rgb(255, 211, 0)!important;
+}
+.btn-lg{
+  height: 50px !important;
+}
+.magin{
+  margin-right: 50px;
+}
+.input-checkbox{
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.date{
+  width: 100px;
+  height: 35px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+
+}
