@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 60%;
+	margin: auto;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	padding: 50px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+	padding-bottom: 20px;
+}
+.col-20{
+	float: left;
+	width: 20%
+
+}
+.col-80{
+	float: left;
+	width: 80%;
+}
+.col-30{
+	float: left;
+	width: 30%;
+}
+.col-70{
+	float: left;
+	width: 70%;
+}
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+.input-control{
+ width: 100%;
+border: 2px solid #ccc;
+border-radius: 4px;
+height: 35px;
+padding-left: 10px;
+box-sizing: border-box;
+} 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.input-checkbox{
+	width: 18px;
+	height: 18px;
+	border-radius: 4px;
+}
+.date{
+	width: 100px;
+	height: 35px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+.float-right{
+	float: right;
+}
+.btn{
+	width: 100%;
+	height: 35px;
+	border: 2px solid rgb(255, 211, 0);
+}
+.btn-yellow{
+	background: rgb(255, 211, 0);
+}
+.btn-lg{
+	border: rgb(255, 211, 0)!important;
+	height: 50px !important;
+}
+.radio{
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+}
+.magin{
+	margin-right: 50px;
+}
