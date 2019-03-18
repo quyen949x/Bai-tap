@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		.box{
+			width: 100px; height: 100px;
+		}
+		#box1{
+			background: #1e7e34;
+		}
+		#box2{
+			background: #d39e00;
+			margin-top: 30px;
+			padding: 30px;
+			border: 5px solid red;
+		}
+		#block1{
+			background: red;
+			width: 300px;
+			height: 200px;
+			min-width: 500px;
+			min-height: 500px;
+		}
+		#block2{
+			background: #d39e00;
+			width: 300px;
+			height: 500px;
+			max-width: 100px;
+			max-height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Video 9</h1>
+		<div id="box1" class="box">
+		Đây là box1
+		</div>
+		<div id="box2" class="box">
+		đây là box 2
+		</div>
+	</div>
+
+	<div>
+		<h1>video 10 giới hạn box</h1>
+		<div id="block1">
+		Nội dung
+		</div>
+		<div id="block2">
+		Nội dung
+		</div>
+	</div>
+</body>
+</html>

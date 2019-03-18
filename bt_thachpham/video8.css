@@ -7,19 +7,19 @@ body{
 }
 
 #header{
-	background: #cccccc;
+	background: #7abaff;
 	padding: 10px 25px;
 
 }
 #content{
-	background: #3333333;
+	background: #e0a800;
 	width: 596px;
 	float: left;
 	padding: 1em;
 
 }
 #sidebar{
-	background: 666666;
+	background: #1c7430;
 	width: 300px;
 	float: right;
 	padding: 1em;

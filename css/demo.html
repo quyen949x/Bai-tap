@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Forms element</h1>
+<form action="" name="user" method="post">
+    <p>
+        <label for="firstname">Họ tên</label>
+        <input type="text" id="firstname" name="firstname" readonly value="" placeholder="Nhập họ tên">
+    </p>
+    <p>
+        <label for="location">Nơi sinh</label>
+        <input type="text" id="location" name="location" required value="" placeholder="Nhập nơi sinh">
+    </p>
+    <p>
+        <label for="location2">Nơi ở</label>
+        <input type="text" id="location2" name="location2" required value="" placeholder="Nhập nơi ở">
+    </p>
+
+
+    <p>
+        <label for="color">Màu da</label>
+        <input type="color" id="color" name="color" value="">
+    </p>
+    <p>
+        <label for="day">Ngày sinh</label>
+        <input type="date" id="day" name="day" value="">
+    </p>
+    <p>
+        <label for="cv">Upload CV</label>
+        <input type="file" id="cv" name="cv" value="">
+    </p>
+    <p>
+        <label for="token">Dữ liệu truyền ngầm token</label>
+        <input type="hidden" id="token" name="token" value="">
+    </p>
+    <p>
+        <label for="">disable</label>
+        <input type="text" name="firstname" value="" disabled>
+    </p>
+    <p>
+        <label for="">size</label>
+        <input type="text" name="firstname" value="" size="50">
+    </p>
+    <p>
+        <label for="">maxlength</label>
+        <input type="text" name="firstname" value="" maxlength="5">
+    </p>
+    <p>
+        <label for="">requied</label>
+        <input type="text" name="firstname" value="" required>
+    </p>
+    <p>
+        <input type="submit" name="submit" value="Gửi dữ liệu">
+    </p>
+
+</form>
+</body>
+</html>
